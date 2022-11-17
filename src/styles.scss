@@ -11,6 +11,8 @@
 
 html, body {
     font-family: 'Quicksand', sans-serif;
-    color: white;
-    @apply bg-pblack-800;
+}
+
+.custom-container {
+    @apply max-w-[100rem]  w-[90%] mx-auto;
 }
