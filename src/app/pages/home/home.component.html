@@ -1,60 +1,76 @@
-<div class="drop-shadow-2xl">
+<div class="">
     <div class="relative overflow-hidden bg-no-repeat bg-cover bg-center" style="
-    background-image: url('https://media.discordapp.net/attachments/1009507450719834164/1042800770770288701/unknown.png?width=924&height=618');
-    height: 350px;
-  ">
+    background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1120&q=80');
+    height: 350px;">
     <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
       style="background-color: rgba(0, 0, 0, 0.75)">
       <div class="flex justify-center items-center h-full">
         <div class="text-center text-white px-6 md:px-12">
           <h1 class="text-5xl font-bold mt-0 mb-6">Pepijn Colenbrander</h1>
           <h3 class="text-3xl font-bold mb-8">Full Stack Web Developer</h3>
-          <button type="button" routerLink="/contact"
-            class="inline-block px-6 py-2.5 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-            data-mdb-ripple="true" data-mdb-ripple-color="light">
-            Contact Me
-          </button>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="">
-    <div class="grid grid-cols-2">
-        <div class="lg:min-h-64">
-            <div class="h-full bg-center bg-cover" style="background-image: url('https://media.discordapp.net/attachments/1009507450719834164/1042802520449359883/unknown.png?width=927&height=618');">
-            </div>
-        </div>
-        <div class="lg:m-10 lg:text-xl my-auto text-center m-2">
-          I first found my passion for coding in early 2020 during the COVID-19 pandemic. Since then I have learned to be proficient in frameworks 
-          and languages such as HTML, CSS, JavaScript, TypeScript, Angular, expressjs, and Nestjs. 
-          My current favorite tech stack is: Angular for frontend, Nestjs for backend, and MySql as a database. Beside coding, I enjoy flight simulation 
-          on networks such as <a href="https://vatsim.net" class="underline" target="_blank">VATSIM</a>. On VATSIM I hold a C1 rating and serve as volunteer division staff in the <a href="https://vatpac.org" class="underline" target="_blank">VATPAC</a> division. In VATPAC, I am part of
-           their IT team and Air Traffic Services team where I make sectorfiles for the divisionally recognisec controller client, <a href="https://virtualairtrafficsystem.com/" class="underline" target="_blank">vatSys</a>.
-        </div>
+<div class="bg-pblack-700 text-white">
+  <div class="custom-container py-10">
+    <div class="flex justify-around">
 
-        <div class="lg:m-10 lg:text-xl my-auto text-center m-2">
-          Coding aside, I love playing volleyball and being around friends and family. I love anything aviation related and dream to one day 
-          be a commercial pilot. While I hate beaches, I love being underwater in the ocean. I hold a <a href="https://www.padi.com/" class="underline" target="_blank">PADI</a> certification that I obtained in summer
-          2022. I love the tropics and have spent most of my live there. I am a son of God and love to worship Him through song. I have played acoustic guitar 
-          for 8 years and am starting to learn electric guitar. Previousely I have played percussion in a band but due to the COVID-19 pandemic this 
-          has faded.
-        </div>
-        <div class="lg:min-h-64">
-            <div class="h-full bg-center bg-cover" style="background-image: url('https://media.discordapp.net/attachments/1009507450719834164/1042831744862257184/unknown.png?width=988&height=618');">
-            </div>
-        </div>
+      <div class="relative">
+        <svg width="339" height="500" viewBox="0 0 339 500" fill="none" xmlns="http://www.w3.org/2000/svg" (click)="two()" class="mx-auto cursor-pointer"
+         [class.custom-text-card-svg]="b" [class.custom-text-card-inactive-svg]="!b">
+          <rect x="44" width="250" height="500" fill="#EAED56"/>
+          <path [class.custom-icon]="b" [class.custom-icon-out]="!b" d="M332.815 106.827L313.196 87.2077C311.228 85.2397 308.892 83.6785 306.321 82.6133C303.75 81.5482 300.995 81 298.212 81C295.429 81 292.673 81.5482 290.102 82.6133C287.531 83.6785 285.195 85.2397 283.227 87.2077L252.583 117.885C250.015 120.447 248.08 123.573 246.935 127.016L238.884 151.191L188.388 201.686C180.337 195.885 171.504 191.264 161.836 189.012C139.688 183.861 117.473 188.43 102.323 203.579C96.1427 209.785 91.5461 217.386 88.9211 225.741C84.9482 238.031 73.5527 247.387 61.0117 248.559C45.3189 250.062 30.7318 256.14 19.5548 267.39C-10.6655 297.524 -5.22926 351.82 31.5065 388.536C68.2423 425.252 122.498 430.615 152.666 400.501C163.922 389.324 169.987 374.744 171.504 358.978C172.669 346.497 182.025 335.055 194.301 331.075C202.658 328.446 210.261 323.847 216.47 317.667C231.613 302.517 236.162 280.348 231.037 258.239C228.793 248.546 224.171 239.699 218.351 231.621L268.832 181.139L292.987 173.088C296.43 171.943 299.557 170.008 302.118 167.44L332.796 136.769C336.765 132.799 338.996 127.416 339 121.802C339.004 116.188 336.779 110.802 332.815 106.827ZM137.728 314.078C131.442 314.078 125.297 312.214 120.07 308.722C114.843 305.229 110.77 300.265 108.364 294.458C105.959 288.65 105.329 282.26 106.556 276.095C107.782 269.929 110.809 264.266 115.254 259.821C119.699 255.376 125.362 252.349 131.527 251.123C137.693 249.897 144.083 250.526 149.891 252.932C155.698 255.337 160.662 259.411 164.154 264.637C167.647 269.864 169.511 276.009 169.511 282.295C169.511 290.724 166.162 298.809 160.202 304.769C154.241 310.729 146.157 314.078 137.728 314.078Z" fill="black"/>
+        </svg>
 
-        <div class="lg:min-h-64">
-            <div class="h-full bg-center bg-cover" style="background-image: url('https://media.discordapp.net/attachments/1009507450719834164/1042802568503504906/unknown.png?width=927&height=618');">
+        <div class="w-[339px] h-[500px] absolute top-0 left-0" [class.custom-text-card]="b" [class.custom-text-card-inactive]="!b" (click)="two()">
+          <div class="w-[250px] h-[500px] bg-[#EAED56] mx-auto">
+            <div class="text-black p-5 cursor-pointer">
+              When I was seven I picked up the accoustic guitar and haven't put it down since. Since then I have grown as a musician transitioning through bands, choirs, 
+              and different instruments. I am currently learning how to play electric guitar, and saving to put together a home studio so I can start making my own music.
             </div>
+          </div>
         </div>
-        <div class="lg:m-10 lg:text-xl my-auto text-center m-2">
-          I have lived all over the world, from Europe to Asia, I call it my home. When I was four years old my family moved to England to learn the 
-          language and my parents attended Bible school. After living in England for a year, we moved to the Philippines where we served as missionaries 
-          for almost 11 years. Currently I reside in the Netherlands. Ontop of playing music, I also mix it. I am an amateur sound engineer and 
-          make sure theres sound every Tuesday morning during the weekly worship service.
+      </div>
+
+      <div class="relative">
+        <svg width="339" height="500" viewBox="0 0 339 500" fill="none" xmlns="http://www.w3.org/2000/svg" (click)="one()" class="mx-auto cursor-pointer"
+         [class.custom-text-card-svg]="a" [class.custom-text-card-inactive-svg]="!a">
+          <rect x="44" width="250" height="500" fill="#28D5E0"/>
+          <path [class.custom-icon]="a" [class.custom-icon-out]="!a" d="M147.732 385.736L115.423 376.367C112.033 375.414 110.127 371.867 111.08 368.48L183.377 119.586C184.33 116.198 187.879 114.292 191.268 115.245L223.577 124.614C226.967 125.567 228.873 129.114 227.92 132.501L155.623 381.395C154.617 384.783 151.121 386.742 147.732 385.736ZM87.3519 326.344L110.391 301.783C112.828 299.19 112.669 295.061 109.968 292.679L61.9818 250.491L109.968 208.302C112.669 205.92 112.881 201.792 110.391 199.198L87.3519 174.637C84.9685 172.096 80.9432 171.937 78.3479 174.372L2.02589 245.832C-0.675298 248.32 -0.675298 252.608 2.02589 255.096L78.3479 326.609C80.9432 329.044 84.9685 328.938 87.3519 326.344ZM260.652 326.662L336.974 255.149C339.675 252.661 339.675 248.373 336.974 245.885L260.652 174.319C258.11 171.937 254.084 172.043 251.648 174.584L228.608 199.145C226.172 201.739 226.331 205.867 229.032 208.249L277.018 250.491L229.032 292.679C226.331 295.061 226.119 299.19 228.608 301.783L251.648 326.344C254.031 328.938 258.057 329.044 260.652 326.662Z" fill="black"/>
+        </svg>
+
+        <div class="w-[339px] h-[500px] absolute top-0 left-0" [class.custom-text-card]="a" [class.custom-text-card-inactive]="!a" (click)="one()">
+          <div class="w-[250px] h-[500px] bg-[#28D5E0] mx-auto">
+            <div class="text-black p-5 cursor-pointer">
+              Full stack web developer who started coding early 2020. I have made systems for organisations such as VATPAC and Virtual Sky School. Experienced in languages and 
+              libraries such as: Angular, Nestjs, MongoDB, and MySQL. I love developing websites with a tech stack like Angular for frontend, Nestjs for backend, and MongoDB as the 
+              database.
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="relative">
+        <svg width="339" height="500" viewBox="0 0 339 500" fill="none" xmlns="http://www.w3.org/2000/svg" (click)="three()" class="mx-auto cursor-pointer"
+         [class.custom-text-card-svg]="c" [class.custom-text-card-inactive-svg]="!c">
+          <rect x="44" width="250" height="500" fill="#28E07D"/>
+          <path [class.custom-icon]="c" [class.custom-icon-out]="!c" d="M152.682 241.917C152.158 217.072 146.892 192.555 137.167 169.686C75.1069 198.66 29.5185 253.329 13.9351 317.838C23.0548 338.729 36.28 357.576 52.8253 373.258C68.5594 318.557 104.176 271.711 152.682 241.917ZM127.462 150.073C117.067 131.965 103.819 115.651 88.2298 101.76C26.0327 135.791 -10.7387 206.246 2.79429 280.937C25.6226 224.15 70.0491 177.066 127.462 150.073ZM255.683 262.896C261.561 194.697 237.024 127.932 189.044 82.2158C178.996 81.0541 153.776 78.4574 121.447 88.0244C161.001 129.004 183.796 183.293 185.353 240.222C207.135 252.197 231.008 259.894 255.683 262.896ZM170.453 269.388C149.194 282.292 130.59 299.13 115.637 319C171.683 358.156 241.74 370.32 305.304 351.664C318.977 333.348 328.789 312.448 334.147 290.23C316.073 294.835 297.505 297.221 278.853 297.337C241.535 297.269 204.422 287.702 170.453 269.388ZM103.266 337.519C92.8775 355.286 85.7009 374.694 81.3266 395.058C111.646 413.663 147.067 422.22 182.538 419.508C218.008 416.796 251.717 402.954 278.853 379.955C201.688 390.957 139.901 363.008 103.266 337.519ZM226.499 91.0995C264.295 139.208 282.886 201.257 277.486 264.399C298.309 264.443 319.005 261.168 338.795 254.696C338.795 253.329 339 251.962 339 250.595C339 176.93 292.045 114.539 226.499 91.0995Z" fill="black"/>
+        </svg>
+
+        <div class="w-[339px] h-[500px] absolute top-0 left-0" [class.custom-text-card]="c" [class.custom-text-card-inactive]="!c" (click)="three()">
+          <div class="w-[250px] h-[500px] bg-[#28E07D] mx-auto">
+            <div class="text-black p-5 cursor-pointer">
+              I have played volleyball for a few years and am part of the local volleyball team. Apart from volleyball, another one of my big hobbies is flight simulation. 
+              I am a C1 rated controller on the VATSIM network and serve as both Technology and Air Traffic Services Staff in the VATPAC Division. My dream is to one day 
+              become a commercial airline pilot.
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </div>
 </div>

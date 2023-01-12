@@ -9,6 +9,7 @@ import { ExperienceComponent } from '../pages/experience/experience.component';
 import { ContactComponent } from '../pages/contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { MenuComponent } from './components/menu/menu.component';
 
 
 
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     AdminComponent,
     ExperienceComponent,
-    ContactComponent
+    ContactComponent,
+    MenuComponent
   ],
   imports: [
     CommonModule,
